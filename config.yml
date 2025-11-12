@@ -1,0 +1,31 @@
+# config.yml
+title: My Random Jekyll Site
+description: A demo static site generated with Jekyll
+baseurl: "/demo-site"
+url: "https://example.com"
+
+author:
+  name: Jane Doe
+  email: jane@example.com
+
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Build settings
+paginate: 5
+paginate_path: "/page:num/"
+
+# Social links
+social_links:
+  twitter: janedoe
+  github: janedoe
+  linkedin: jane-doe
+
+# Exclude from processing
+exclude:
+  - "README.md"
+  - "node_modules/"
+  - "vendor/"
