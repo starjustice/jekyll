@@ -4,5 +4,11 @@
   "settings": {},
   "forwardPorts": [3000],
   "postCreateCommand": "npm install",
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "dsznajder.es7-react-js-snippets",
+    "eamodio.gitlens"
+  ]
 }
